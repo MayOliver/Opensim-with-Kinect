@@ -1,0 +1,33 @@
+﻿<Window x:Class="PraxisProjectIuK.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"     WindowStyle="None" ResizeMode="NoResize"  
+    WindowStartupLocation="CenterScreen" WindowState="Maximized">
+
+    <Grid>
+
+
+        <UserControl VerticalAlignment="Top" HorizontalAlignment="Left" Height="1080" Width="1920">
+            <Border x:Name="RecordingBorder1" BorderThickness="2" BorderBrush="Black">
+                <Image Name="camera" Stretch="Fill" />
+            </Border>
+        </UserControl>
+
+
+        <UserControl VerticalAlignment="Top" HorizontalAlignment="Left" Height="1080" Width="1920">
+            <Border x:Name="RecordingBorder2" BorderThickness="2" BorderBrush="Black">
+                <Canvas Name="canvas" Margin="2,8,-2,-8"/>
+            </Border>
+        </UserControl>
+        
+        <Image Name="instructions" HorizontalAlignment="Left" Height="1080" Margin="0,0,-8,0" VerticalAlignment="Top" Width="1920" />
+
+
+
+
+
+
+
+    </Grid>
+
+</Window>
